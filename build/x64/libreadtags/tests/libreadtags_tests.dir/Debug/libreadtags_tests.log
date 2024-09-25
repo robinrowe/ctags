@@ -1,0 +1,89 @@
+﻿  test-api-tagsClose.c
+  test-api-tagsFind.c
+  test-api-tagsFindPseudoTag.c
+  test-api-tagsFirst.c
+  test-api-tagsFirstPseudoTag.c
+  test-api-tagsOpen.c
+  test-api-tagsSetSortType.c
+  test-fix-large-tags.c
+  test-fix-null-deref.c
+  test-fix-unescaping-input-fields-backslash.c
+  test-fix-unescaping-input-fields-exuberant.c
+  test-fix-unescaping-input-fields-no-filesep.c
+  test-fix-unescaping-input-fields-no-mode.c
+  test-fix-unescaping-input-fields.c
+  test-fix-unescaping.c
+  Generating Code...
+test-api-tagsClose.obj : error LNK2005: main already defined in duplicated-names.obj
+test-api-tagsFind.obj : error LNK2005: main already defined in duplicated-names.obj
+test-api-tagsFindPseudoTag.obj : error LNK2005: main already defined in duplicated-names.obj
+test-api-tagsFirst.obj : error LNK2005: main already defined in duplicated-names.obj
+test-api-tagsFirstPseudoTag.obj : error LNK2005: main already defined in duplicated-names.obj
+test-api-tagsOpen.obj : error LNK2005: main already defined in duplicated-names.obj
+test-api-tagsSetSortType.obj : error LNK2005: main already defined in duplicated-names.obj
+test-fix-large-tags.obj : error LNK2005: main already defined in duplicated-names.obj
+test-fix-null-deref.obj : error LNK2005: main already defined in duplicated-names.obj
+test-fix-unescaping-input-fields-backslash.obj : error LNK2005: main already defined in duplicated-names.obj
+test-fix-unescaping-input-fields-exuberant.obj : error LNK2005: main already defined in duplicated-names.obj
+test-fix-unescaping-input-fields-no-filesep.obj : error LNK2005: main already defined in duplicated-names.obj
+test-fix-unescaping-input-fields-no-mode.obj : error LNK2005: main already defined in duplicated-names.obj
+test-fix-unescaping-input-fields.obj : error LNK2005: main already defined in duplicated-names.obj
+test-fix-unescaping.obj : error LNK2005: main already defined in duplicated-names.obj
+test-fix-unescaping-input-fields-no-mode.obj : error LNK2019: unresolved external symbol tagsClose referenced in function main
+test-fix-unescaping-input-fields.obj : error LNK2001: unresolved external symbol tagsClose
+test-fix-unescaping.obj : error LNK2001: unresolved external symbol tagsClose
+test-fix-null-deref.obj : error LNK2001: unresolved external symbol tagsClose
+test-fix-unescaping-input-fields-backslash.obj : error LNK2001: unresolved external symbol tagsClose
+test-fix-unescaping-input-fields-exuberant.obj : error LNK2001: unresolved external symbol tagsClose
+test-fix-unescaping-input-fields-no-filesep.obj : error LNK2001: unresolved external symbol tagsClose
+test-api-tagsFirstPseudoTag.obj : error LNK2001: unresolved external symbol tagsClose
+test-api-tagsOpen.obj : error LNK2001: unresolved external symbol tagsClose
+test-api-tagsSetSortType.obj : error LNK2001: unresolved external symbol tagsClose
+test-fix-large-tags.obj : error LNK2001: unresolved external symbol tagsClose
+test-api-tagsClose.obj : error LNK2001: unresolved external symbol tagsClose
+test-api-tagsFind.obj : error LNK2001: unresolved external symbol tagsClose
+test-api-tagsFindPseudoTag.obj : error LNK2001: unresolved external symbol tagsClose
+test-api-tagsFirst.obj : error LNK2001: unresolved external symbol tagsClose
+test-fix-unescaping-input-fields.obj : error LNK2019: unresolved external symbol tagsOpen referenced in function main
+test-fix-unescaping.obj : error LNK2001: unresolved external symbol tagsOpen
+test-fix-unescaping-input-fields-backslash.obj : error LNK2001: unresolved external symbol tagsOpen
+test-fix-unescaping-input-fields-exuberant.obj : error LNK2001: unresolved external symbol tagsOpen
+test-fix-unescaping-input-fields-no-filesep.obj : error LNK2001: unresolved external symbol tagsOpen
+test-fix-unescaping-input-fields-no-mode.obj : error LNK2001: unresolved external symbol tagsOpen
+test-api-tagsOpen.obj : error LNK2001: unresolved external symbol tagsOpen
+test-api-tagsSetSortType.obj : error LNK2001: unresolved external symbol tagsOpen
+test-fix-large-tags.obj : error LNK2001: unresolved external symbol tagsOpen
+test-fix-null-deref.obj : error LNK2001: unresolved external symbol tagsOpen
+test-api-tagsFind.obj : error LNK2001: unresolved external symbol tagsOpen
+test-api-tagsFindPseudoTag.obj : error LNK2001: unresolved external symbol tagsOpen
+test-api-tagsFirst.obj : error LNK2001: unresolved external symbol tagsOpen
+test-api-tagsFirstPseudoTag.obj : error LNK2001: unresolved external symbol tagsOpen
+test-api-tagsFind.obj : error LNK2019: unresolved external symbol tagsField referenced in function check_finding0
+test-api-tagsFind.obj : error LNK2019: unresolved external symbol tagsFind referenced in function check_finding0
+test-fix-large-tags.obj : error LNK2001: unresolved external symbol tagsFind
+test-api-tagsFind.obj : error LNK2019: unresolved external symbol tagsFindNext referenced in function check_finding0
+test-api-tagsSetSortType.obj : error LNK2019: unresolved external symbol tagsGetErrno referenced in function check
+test-api-tagsFind.obj : error LNK2001: unresolved external symbol tagsGetErrno
+test-api-tagsFindPseudoTag.obj : error LNK2001: unresolved external symbol tagsGetErrno
+test-api-tagsFirst.obj : error LNK2001: unresolved external symbol tagsGetErrno
+test-api-tagsFirstPseudoTag.obj : error LNK2001: unresolved external symbol tagsGetErrno
+test-api-tagsFindPseudoTag.obj : error LNK2019: unresolved external symbol tagsFindPseudoTag referenced in function check_finding0
+test-fix-unescaping-input-fields-no-filesep.obj : error LNK2019: unresolved external symbol tagsFirst referenced in function main
+test-fix-unescaping-input-fields-no-mode.obj : error LNK2001: unresolved external symbol tagsFirst
+test-fix-unescaping-input-fields.obj : error LNK2001: unresolved external symbol tagsFirst
+test-fix-unescaping.obj : error LNK2001: unresolved external symbol tagsFirst
+test-api-tagsFirst.obj : error LNK2001: unresolved external symbol tagsFirst
+test-fix-null-deref.obj : error LNK2001: unresolved external symbol tagsFirst
+test-fix-unescaping-input-fields-backslash.obj : error LNK2001: unresolved external symbol tagsFirst
+test-fix-unescaping-input-fields-exuberant.obj : error LNK2001: unresolved external symbol tagsFirst
+test-fix-unescaping-input-fields-no-mode.obj : error LNK2019: unresolved external symbol tagsNext referenced in function main
+test-fix-unescaping-input-fields.obj : error LNK2001: unresolved external symbol tagsNext
+test-fix-unescaping.obj : error LNK2001: unresolved external symbol tagsNext
+test-api-tagsFirst.obj : error LNK2001: unresolved external symbol tagsNext
+test-fix-unescaping-input-fields-backslash.obj : error LNK2001: unresolved external symbol tagsNext
+test-fix-unescaping-input-fields-exuberant.obj : error LNK2001: unresolved external symbol tagsNext
+test-fix-unescaping-input-fields-no-filesep.obj : error LNK2001: unresolved external symbol tagsNext
+test-api-tagsFirstPseudoTag.obj : error LNK2019: unresolved external symbol tagsFirstPseudoTag referenced in function check_iterating0
+test-api-tagsFirstPseudoTag.obj : error LNK2019: unresolved external symbol tagsNextPseudoTag referenced in function check_iterating0
+test-api-tagsSetSortType.obj : error LNK2019: unresolved external symbol tagsSetSortType referenced in function check
+C:\code\github\ctags\build\x64\libreadtags\tests\Debug\libreadtags_tests.exe : fatal error LNK1120: 12 unresolved externals

@@ -1,0 +1,113 @@
+﻿  fnmatch_loop.c
+C:\code\github\ctags\gnulib\fnmatch_loop.c(56,24): warning C4013: 'L_' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(59,11): warning C4013: 'FOLD' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(64,15): error C2065: 'FNM_EXTMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(73,20): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(74,46): error C2065: 'FNM_FILE_NAME': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(75,20): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(77,20): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(81,25): error C2065: 'FNM_NOESCAPE': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(86,24): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(90,20): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(94,15): error C2065: 'FNM_EXTMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(110,20): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(114,45): error C2065: 'FNM_EXTMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(130,28): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(132,31): error C2065: 'FNM_FILE_NAME': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(135,28): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(150,37): error C2065: 'FNM_FILE_NAME': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(150,63): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(152,27): error C2065: 'FNM_FILE_NAME': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(154,31): error C2065: 'FNM_LEADING_DIR': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(158,27): warning C4013: 'MEMCHR' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(158,63): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(171,42): error C2065: 'FNM_FILE_NAME': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(171,20): warning C4047: '=': 'const CHAR *' differs in levels of indirection from 'int'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(177,23): error C2065: 'FNM_EXTMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(181,42): error C2065: 'FNM_FILE_NAME': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(182,53): error C2065: 'FNM_PERIOD': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(189,49): error C2065: 'FNM_FILE_NAME': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(194,62): error C2065: 'FNM_PERIOD': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(200,42): error C2065: 'FNM_FILE_NAME': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(201,53): error C2065: 'FNM_PERIOD': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(203,50): error C2065: 'FNM_NOESCAPE': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(227,18): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(238,17): error C2065: 'posixly_correct': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(239,15): error C2065: 'posixly_correct': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(239,33): warning C4013: 'getenv' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(239,60): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(242,22): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(245,22): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(247,43): error C2065: 'FNM_FILE_NAME': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(249,22): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(251,38): error C2065: 'posixly_correct': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(260,31): error C2065: 'FNM_NOESCAPE': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(263,30): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(272,30): error C2065: 'CHAR_CLASS_MAX_LENGTH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(272,52): error C2057: expected constant expression
+C:\code\github\ctags\gnulib\fnmatch_loop.c(272,30): error C2466: cannot allocate an array of constant size 0
+C:\code\github\ctags\gnulib\fnmatch_loop.c(272,26): error C2133: 'str': unknown size
+C:\code\github\ctags\gnulib\fnmatch_loop.c(279,35): error C2065: 'CHAR_CLASS_MAX_LENGTH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(282,34): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(302,26): warning C4013: 'IS_CHAR_CLASS' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(305,30): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(314,35): warning C4013: 'BTOWC' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(803,39): error C2065: 'FNM_NOESCAPE': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(806,34): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(822,22): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(831,26): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(833,31): error C2065: 'FNM_NOESCAPE': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(836,30): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(848,37): error C2065: 'CHAR_CLASS_MAX_LENGTH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(849,34): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(866,30): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(869,30): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(878,34): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(887,22): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(894,15): error C2065: 'FNM_EXTMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(904,15): warning C4013: 'NO_LEADING_PERIOD' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(907,24): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(912,11): error C2065: 'FALLTHROUGH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(916,20): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(926,16): error C2065: 'FNM_LEADING_DIR': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(930,10): error C2065: 'FNM_NOMATCH': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(63,14): error C2051: case expression not constant
+C:\code\github\ctags\gnulib\fnmatch_loop.c(80,14): error C2051: case expression not constant
+C:\code\github\ctags\gnulib\fnmatch_loop.c(93,14): error C2051: case expression not constant
+C:\code\github\ctags\gnulib\fnmatch_loop.c(229,14): error C2051: case expression not constant
+C:\code\github\ctags\gnulib\fnmatch_loop.c(891,14): error C2051: case expression not constant
+C:\code\github\ctags\gnulib\fnmatch_loop.c(892,14): error C2051: case expression not constant
+C:\code\github\ctags\gnulib\fnmatch_loop.c(893,14): error C2051: case expression not constant
+C:\code\github\ctags\gnulib\fnmatch_loop.c(903,14): error C2051: case expression not constant
+C:\code\github\ctags\gnulib\fnmatch_loop.c(946,13): error C2065: 'posixly_correct': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(947,11): error C2065: 'posixly_correct': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(947,56): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(951,33): error C2065: 'posixly_correct': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(990,24): warning C4013: 'STRLEN' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1008,13): error C2065: 'posixly_correct': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1009,11): error C2065: 'posixly_correct': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1009,56): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1013,33): error C2065: 'posixly_correct': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): error C2065: 'idx_t': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): error C2146: syntax error: missing ';' before identifier 'slen'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): error C2065: 'slen': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): warning C4013: 'FLEXSIZEOF' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): error C2143: syntax error: missing ')' before 'type'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): error C2059: syntax error: ')'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): error C2146: syntax error: missing ';' before identifier 'new_used'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): error C2065: 'new_used': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): error C2146: syntax error: missing ';' before identifier 'plensize'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): error C2065: 'plensize': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): warning C4013: 'INT_MULTIPLY_WRAPV' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): warning C4013: 'INT_ADD_WRAPV' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): warning C4013: '__libc_use_alloca' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): warning C4047: '=': 'patternlist *' differs in levels of indirection from 'int'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): warning C4013: 'alloca_account' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): warning C4013: 'MEMPCPY' undefined; assuming extern returning int
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1068,13): warning C4312: 'type cast': conversion from 'int' to 'CHAR *' of greater size
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1075,13): error C2065: 'idx_t': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1075,13): error C2146: syntax error: missing ';' before identifier 'slen'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1075,13): error C2065: 'slen': undeclared identifier
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1075,13): error C2143: syntax error: missing ')' before 'type'
+C:\code\github\ctags\gnulib\fnmatch_loop.c(1075,13): error C1003: error count exceeds 100; stopping compilation

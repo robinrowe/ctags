@@ -1,0 +1,93 @@
+﻿  cmake.c
+  ctags-optlib.c
+  elixir.c
+  forth.c
+  gdbinit.c
+  gperf.c
+  iPythonCell.c
+  inko.c
+  kconfig.c
+  lex.c
+  man.c
+  meson.c
+  mesonOptions.c
+  org.c
+  passwd.c
+  pkgConfig.c
+  pod.c
+  puppetManifest.c
+  qemuhx.c
+  rdoc.c
+  Generating Code...
+  Compiling...
+  rpmMacros.c
+  scss.c
+  systemtap.c
+  terraform.c
+  terraformvariables.c
+  yacc.c
+  Generating Code...
+terraformvariables.obj : error LNK2001: unresolved external symbol parserNew
+yacc.obj : error LNK2001: unresolved external symbol parserNew
+rpmMacros.obj : error LNK2001: unresolved external symbol parserNew
+scss.obj : error LNK2001: unresolved external symbol parserNew
+systemtap.obj : error LNK2001: unresolved external symbol parserNew
+terraform.obj : error LNK2001: unresolved external symbol parserNew
+pod.obj : error LNK2001: unresolved external symbol parserNew
+puppetManifest.obj : error LNK2001: unresolved external symbol parserNew
+qemuhx.obj : error LNK2001: unresolved external symbol parserNew
+rdoc.obj : error LNK2001: unresolved external symbol parserNew
+mesonOptions.obj : error LNK2001: unresolved external symbol parserNew
+org.obj : error LNK2001: unresolved external symbol parserNew
+passwd.obj : error LNK2001: unresolved external symbol parserNew
+pkgConfig.obj : error LNK2001: unresolved external symbol parserNew
+kconfig.obj : error LNK2001: unresolved external symbol parserNew
+lex.obj : error LNK2001: unresolved external symbol parserNew
+man.obj : error LNK2001: unresolved external symbol parserNew
+meson.obj : error LNK2001: unresolved external symbol parserNew
+gdbinit.obj : error LNK2001: unresolved external symbol parserNew
+gperf.obj : error LNK2001: unresolved external symbol parserNew
+iPythonCell.obj : error LNK2001: unresolved external symbol parserNew
+inko.obj : error LNK2001: unresolved external symbol parserNew
+cmake.obj : error LNK2001: unresolved external symbol parserNew
+ctags-optlib.obj : error LNK2001: unresolved external symbol parserNew
+elixir.obj : error LNK2001: unresolved external symbol parserNew
+forth.obj : error LNK2001: unresolved external symbol parserNew
+terraform.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+yacc.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+puppetManifest.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+rpmMacros.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+scss.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+systemtap.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+man.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+meson.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+org.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+pkgConfig.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+cmake.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+gperf.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+inko.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+lex.obj : error LNK2001: unresolved external symbol addLanguageRegexTable
+terraform.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+yacc.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+puppetManifest.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+rpmMacros.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+scss.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+systemtap.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+man.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+meson.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+org.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+pkgConfig.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+cmake.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+gperf.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+inko.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+lex.obj : error LNK2001: unresolved external symbol addLanguageTagMultiTableRegex
+forth.obj : error LNK2001: unresolved external symbol selectFortranOrForthByForthMarker
+lex.obj : error LNK2001: unresolved external symbol selectLispOrLEXByLEXMarker
+rdoc.obj : error LNK2001: unresolved external symbol addLanguageOptscriptToHook
+yacc.obj : error LNK2001: unresolved external symbol addLanguageOptscriptToHook
+man.obj : error LNK2001: unresolved external symbol addLanguageOptscriptToHook
+org.obj : error LNK2001: unresolved external symbol addLanguageOptscriptToHook
+pod.obj : error LNK2001: unresolved external symbol addLanguageOptscriptToHook
+puppetManifest.obj : error LNK2001: unresolved external symbol addLanguageOptscriptToHook
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\code\github\ctags\build\x64\optlib\Debug\optlib.exe : fatal error LNK1120: 7 unresolved externals

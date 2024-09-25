@@ -18,6 +18,7 @@
 #ifdef _LIBC
 # include <stdint.h>
 #endif
+#include "general.h"
 
 struct STRUCT
 {

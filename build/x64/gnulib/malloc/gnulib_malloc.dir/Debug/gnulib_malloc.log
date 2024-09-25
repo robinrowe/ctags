@@ -1,0 +1,13 @@
+﻿  dynarray_at_failure.c
+  dynarray_emplace_enlarge.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+C:\code\github\ctags\gnulib\malloc\dynarray_emplace_enlarge.c(59,7): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\code\github\ctags\gnulib\malloc\dynarray_emplace_enlarge.c(59,7): warning C4308: negative integral constant converted to unsigned type
+  dynarray_finalize.c
+  dynarray_resize.c
+C:\code\github\ctags\gnulib\malloc\dynarray_resize.c(45,7): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\code\github\ctags\gnulib\malloc\dynarray_resize.c(45,7): warning C4308: negative integral constant converted to unsigned type
+  dynarray_resize_clear.c
+  Generating Code...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\code\github\ctags\build\x64\gnulib\malloc\Debug\gnulib_malloc.exe : fatal error LNK1120: 1 unresolved externals

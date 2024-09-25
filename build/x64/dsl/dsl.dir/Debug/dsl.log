@@ -1,0 +1,76 @@
+﻿  dsl.c
+  es.c
+C:\code\github\ctags\dsl\es.c(721,14): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\code\github\ctags\dsl\es.c(949,26): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\code\github\ctags\dsl\es.c(1294,27): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\code\github\ctags\dsl\es.c(1507,18): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  formatter.c
+  optscript.c
+  qualifier.c
+  sorter.c
+  Generating Code...
+dsl.obj : error LNK2019: unresolved external symbol mio_new_fp referenced in function dsl_report_error
+es.obj : error LNK2001: unresolved external symbol mio_new_fp
+dsl.obj : error LNK2019: unresolved external symbol mio_unref referenced in function dsl_report_error
+es.obj : error LNK2001: unresolved external symbol mio_unref
+optscript.obj : error LNK2001: unresolved external symbol mio_unref
+es.obj : error LNK2019: unresolved external symbol mio_new_memory referenced in function es_print_to_string
+es.obj : error LNK2019: unresolved external symbol mio_memory_get_data referenced in function es_print_to_string
+es.obj : error LNK2019: unresolved external symbol mio_getc referenced in function get_token
+optscript.obj : error LNK2001: unresolved external symbol mio_getc
+es.obj : error LNK2019: unresolved external symbol mio_ungetc referenced in function get_token
+optscript.obj : error LNK2001: unresolved external symbol mio_ungetc
+es.obj : error LNK2019: unresolved external symbol mio_putc referenced in function es_integer_get
+optscript.obj : error LNK2001: unresolved external symbol mio_putc
+es.obj : error LNK2019: unresolved external symbol mio_puts referenced in function es_comment
+optscript.obj : error LNK2001: unresolved external symbol mio_puts
+es.obj : error LNK2019: unresolved external symbol mio_printf referenced in function es_object_ref
+optscript.obj : error LNK2001: unresolved external symbol mio_printf
+es.obj : error LNK2019: unresolved external symbol mio_tell referenced in function es_read_from_string
+es.obj : error LNK2019: unresolved external symbol regcomp referenced in function es_regex_compile
+es.obj : error LNK2019: unresolved external symbol regexec referenced in function es_regex_exec
+es.obj : error LNK2019: unresolved external symbol regfree referenced in function es_regex_compile
+optscript.obj : error LNK2019: unresolved external symbol mio_ref referenced in function opt_vm_new
+optscript.obj : error LNK2019: unresolved external symbol hashPtrhash referenced in function opt_es_hash
+optscript.obj : error LNK2019: unresolved external symbol hashTableNew referenced in function dict_new
+optscript.obj : error LNK2019: unresolved external symbol hashTableSetValueForUnknownKey referenced in function dict_new
+optscript.obj : error LNK2019: unresolved external symbol hashTableDelete referenced in function dict_es_free
+optscript.obj : error LNK2019: unresolved external symbol hashTableClear referenced in function dict_op_clear
+optscript.obj : error LNK2019: unresolved external symbol hashTablePutItem referenced in function dict_copy_cb
+optscript.obj : error LNK2019: unresolved external symbol hashTableGetItem referenced in function dict_op_known_and_get
+optscript.obj : error LNK2019: unresolved external symbol hashTableDeleteItem referenced in function dict_op_undef
+optscript.obj : error LNK2019: unresolved external symbol hashTableUpdateOrPutItem referenced in function dict_op_def
+optscript.obj : error LNK2019: unresolved external symbol hashTableForeachItem referenced in function opt_dict_foreach
+optscript.obj : error LNK2019: unresolved external symbol hashTableCountItem referenced in function dict_es_print
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayNew referenced in function array_new
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayAdd referenced in function array_op_add
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayUpdate referenced in function array_op_put
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayRemoveLast referenced in function op__print_objdict_rec
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayDeleteLastInBatch referenced in function vm_ostack_pop
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayClear referenced in function opt_vm_clear
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayCount referenced in function opt_vm_print_prompt
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayItem referenced in function array_op_get
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayItemFromLast referenced in function vm_ostack_top
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayUnref referenced in function opt_vm_delete
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayRef referenced in function array_shared_new
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayRemoveItem referenced in function op_roll
+optscript.obj : error LNK2019: unresolved external symbol ptrArrayInsertItem referenced in function op_roll
+optscript.obj : error LNK2019: unresolved external symbol ptrArraySort referenced in function vm_help
+optscript.obj : error LNK2019: unresolved external symbol eCalloc referenced in function opt_vm_new
+optscript.obj : error LNK2019: unresolved external symbol eFree referenced in function opt_vm_delete
+optscript.obj : error LNK2019: unresolved external symbol strrstr referenced in function op__strstr_common
+optscript.obj : error LNK2019: unresolved external symbol eStrdup referenced in function operator_es_init_fat
+optscript.obj : error LNK2019: unresolved external symbol eStrndup referenced in function vm_help
+optscript.obj : error LNK2019: unresolved external symbol strToInt referenced in function name_or_number_new
+optscript.obj : error LNK2019: unresolved external symbol vStringResize referenced in function vStringPutImpl
+optscript.obj : error LNK2019: unresolved external symbol vStringNew referenced in function string_new
+optscript.obj : error LNK2019: unresolved external symbol vStringDelete referenced in function string_es_free
+optscript.obj : error LNK2019: unresolved external symbol vStringCat referenced in function op__putinterval_string
+optscript.obj : error LNK2019: unresolved external symbol vStringCatS referenced in function op_cvs
+optscript.obj : error LNK2019: unresolved external symbol vStringNCatSUnsafe referenced in function op__copyinterval_string
+optscript.obj : error LNK2019: unresolved external symbol vStringNewInit referenced in function opt_string_new_from_cstr
+optscript.obj : error LNK2019: unresolved external symbol vStringCopy referenced in function op_cvs
+optscript.obj : error LNK2019: unresolved external symbol vStringCopyS referenced in function op_cvs
+optscript.obj : error LNK2019: unresolved external symbol vStringTruncate referenced in function op__put_str
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\code\github\ctags\build\x64\dsl\Debug\dsl.exe : fatal error LNK1120: 56 unresolved externals

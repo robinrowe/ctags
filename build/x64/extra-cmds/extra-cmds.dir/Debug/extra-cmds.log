@@ -1,0 +1,127 @@
+﻿  optscript-repl.c
+  readtags-cmd.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  readtags-stub.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  utiltest.c
+C:\code\github\ctags\extra-cmds\utiltest.c(210,28): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\code\github\ctags\extra-cmds\utiltest.c(215,2): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\code\github\ctags\extra-cmds\utiltest.c(231,29): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  Generating Code...
+readtags-cmd.obj : error LNK2005: main already defined in optscript-repl.obj
+readtags-stub.obj : error LNK2005: SocketNotificationRetrieveEvents already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: strlcpy already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: strlcat already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: StubBug already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: sigemptyset already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: sigfillset already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: sigaddset already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: sigdelset already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: sigismember already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: sigprocmask already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: sigpending already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: sigsuspend already defined in readtags-cmd.obj
+readtags-stub.obj : error LNK2005: GetUnistdVersion already defined in readtags-cmd.obj
+utiltest.obj : error LNK2005: main already defined in optscript-repl.obj
+optscript-repl.obj : error LNK2019: unresolved external symbol mio_new_file referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol mio_new_fp referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol mio_new_memory referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol mio_unref referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol es_object_unref referenced in function optscript_run
+readtags-cmd.obj : error LNK2001: unresolved external symbol es_object_unref
+optscript-repl.obj : error LNK2019: unresolved external symbol es_object_equal referenced in function optscript_run
+optscript-repl.obj : error LNK2019: unresolved external symbol es_symbol_intern referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol es_error_intern referenced in function optscript_run
+optscript-repl.obj : error LNK2019: unresolved external symbol es_error_p referenced in function optscript_run
+readtags-cmd.obj : error LNK2001: unresolved external symbol es_error_p
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_init referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_new referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_delete referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_read referenced in function optscript_run
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_eval referenced in function optscript_run
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_report_error referenced in function optscript_run
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_set_app_data referenced in function optscript_run
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_get_app_data referenced in function op_renew
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_set_prompt referenced in function optscript_run
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_print_prompt referenced in function optscript_run
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_help referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_clear referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_vm_dstack_push referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_dict_new referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_dict_def referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol opt_operator_new referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol eRealloc referenced in function main
+optscript-repl.obj : error LNK2019: unresolved external symbol eFree referenced in function main
+readtags-cmd.obj : error LNK2001: unresolved external symbol eFree
+utiltest.obj : error LNK2001: unresolved external symbol eFree
+optscript-repl.obj : error LNK2019: unresolved external symbol eStrdup referenced in function main
+readtags-cmd.obj : error LNK2001: unresolved external symbol eStrdup
+utiltest.obj : error LNK2001: unresolved external symbol eStrdup
+optscript-repl.obj : error LNK2001: unresolved external symbol OPT_ERR_QUIT
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsOpen referenced in function openTagFileX
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsSetSortType referenced in function findTag
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsFirst referenced in function listTags
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsNext referenced in function listTags
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsFind referenced in function findTag
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsFindNext referenced in function findTag
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsFirstPseudoTag referenced in function listTags
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsNextPseudoTag referenced in function listTags
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsFindPseudoTag referenced in function loadCtagsCWD
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsClose referenced in function deleteTagFileX
+readtags-cmd.obj : error LNK2019: unresolved external symbol tagsGetErrno referenced in function walkTags
+readtags-cmd.obj : error LNK2019: unresolved external symbol eMalloc referenced in function copyTag
+readtags-cmd.obj : error LNK2019: unresolved external symbol eCalloc referenced in function copyTag
+readtags-cmd.obj : error LNK2019: unresolved external symbol tempFileFP referenced in function openTags
+readtags-cmd.obj : error LNK2019: unresolved external symbol setExecutableName referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol ptrArrayNew referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol ptrArrayAdd referenced in function walkTags
+readtags-cmd.obj : error LNK2019: unresolved external symbol ptrArrayCount referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol ptrArrayItem referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol ptrArrayUnref referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol ptrArraySort referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol canonFnameCacheTableNew referenced in function makeCanonFnameCacheTable
+utiltest.obj : error LNK2001: unresolved external symbol canonFnameCacheTableNew
+readtags-cmd.obj : error LNK2019: unresolved external symbol canonFnameCacheTableDelete referenced in function main
+utiltest.obj : error LNK2001: unresolved external symbol canonFnameCacheTableDelete
+readtags-cmd.obj : error LNK2019: unresolved external symbol canonicalizeFileName referenced in function walkTags
+utiltest.obj : error LNK2001: unresolved external symbol canonicalizeFileName
+readtags-cmd.obj : error LNK2019: unresolved external symbol es_error_name referenced in function compileExpression
+readtags-cmd.obj : error LNK2019: unresolved external symbol es_read_from_string referenced in function compileExpression
+readtags-cmd.obj : error LNK2019: unresolved external symbol q_compile referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol q_is_acceptable referenced in function walkTags
+readtags-cmd.obj : error LNK2019: unresolved external symbol q_destroy referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol q_help referenced in function printFilterExpression
+readtags-cmd.obj : error LNK2019: unresolved external symbol s_compile referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol s_compare referenced in function compareTagEntry
+readtags-cmd.obj : error LNK2019: unresolved external symbol s_destroy referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol s_help referenced in function printSorterExpression
+readtags-cmd.obj : error LNK2019: unresolved external symbol f_compile referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol f_print referenced in function printTagWithFormatter
+readtags-cmd.obj : error LNK2019: unresolved external symbol f_destroy referenced in function main
+readtags-cmd.obj : error LNK2019: unresolved external symbol f_help referenced in function printFormatterExpression
+readtags-stub.obj : error LNK2019: unresolved external symbol getExecutableName referenced in function stderrDefaultErrorPrinter
+utiltest.obj : error LNK2019: unresolved external symbol hashCstrhash referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol hashCstreq referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol hashTableNew referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol hashTableDelete referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol hashTablePutItem referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol hashTableGetItem referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol hashTableUpdateItem referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol hashTableUpdateOrPutItem referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol canonicalizeAbsoluteFileName referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol intArrayNew referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol intArrayAdd referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol intArrayRemoveLast referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol intArrayCount referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol intArrayItem referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol intArrayLast referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol intArrayDelete referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol strrstr referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol vStringNew referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol vStringDelete referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol vStringStripLeading referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol vStringCatS referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol vStringNCatS referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol vStringNewInit referenced in function main
+utiltest.obj : error LNK2019: unresolved external symbol vStringTruncateLeading referenced in function main
+C:\code\github\ctags\build\x64\extra-cmds\Debug\extra-cmds.exe : fatal error LNK1120: 92 unresolved externals

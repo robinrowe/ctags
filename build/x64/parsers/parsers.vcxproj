@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B9908E5D-8B83-3CB3-A601-A491FB137770}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>parsers</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\code\github\ctags\build\x64\parsers\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">parsers.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">parsers</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\code\github\ctags\build\x64\parsers\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">parsers.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">parsers</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\code\github\ctags\build\x64\parsers\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">parsers.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">parsers</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\code\github\ctags\build\x64\parsers\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">parsers.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">parsers</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4305;4018;26451;6031;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_ISOMAC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_ISOMAC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libunistd.lib;Ws2_32.lib;Imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/code/github/libunistd/build/x64/Release;/code/github/libunistd/build/x64/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/code/github/ctags/build/x64/parsers/Debug/parsers.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/code/github/ctags/build/x64/parsers/Debug/parsers.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4244;4305;4018;26451;6031;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libunistd.lib;Ws2_32.lib;Imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/code/github/libunistd/build/x64/Release;/code/github/libunistd/build/x64/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/code/github/ctags/build/x64/parsers/Release/parsers.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/code/github/ctags/build/x64/parsers/Release/parsers.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4244;4305;4018;26451;6031;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libunistd.lib;Ws2_32.lib;Imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/code/github/libunistd/build/x64/Release;/code/github/libunistd/build/x64/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/code/github/ctags/build/x64/parsers/MinSizeRel/parsers.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/code/github/ctags/build/x64/parsers/MinSizeRel/parsers.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4305;4018;26451;6031;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libunistd.lib;Ws2_32.lib;Imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/code/github/libunistd/build/x64/Release;/code/github/libunistd/build/x64/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/code/github/ctags/build/x64/parsers/RelWithDebInfo/parsers.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/code/github/ctags/build/x64/parsers/RelWithDebInfo/parsers.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\code\github\ctags\parsers\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/code/github/ctags/parsers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/code/github/ctags -BC:/code/github/ctags/build/x64 --check-stamp-file C:/code/github/ctags/build/x64/parsers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\code\github\ctags\build\x64\parsers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/code/github/ctags/parsers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/code/github/ctags -BC:/code/github/ctags/build/x64 --check-stamp-file C:/code/github/ctags/build/x64/parsers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\code\github\ctags\build\x64\parsers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/code/github/ctags/parsers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/code/github/ctags -BC:/code/github/ctags/build/x64 --check-stamp-file C:/code/github/ctags/build/x64/parsers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\code\github\ctags\build\x64\parsers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/code/github/ctags/parsers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/code/github/ctags -BC:/code/github/ctags/build/x64 --check-stamp-file C:/code/github/ctags/build/x64/parsers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\code\github\ctags\build\x64\parsers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\code\github\ctags\parsers\sources.cmake">
+    </None>
+    <ClInclude Include="C:\code\github\ctags\parsers\x-autoconf.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-bibtex.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-cpreprocessor.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-frontmatter.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-iniconf.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-jscript.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-m4.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-make.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-markdown.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-perl.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-r.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-ruby.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-sh.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-tcl.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-tex.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-toml.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-xml.h" />
+    <ClInclude Include="C:\code\github\ctags\parsers\x-yaml.h" />
+    <ClCompile Include="C:\code\github\ctags\parsers\abaqus.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\abc.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\ada.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\ansibleplaybook.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\ant.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\asciidoc.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\asm.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\asp.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\autoconf.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\autoit.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\automake.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\awk.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\basic.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\bats.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\beta.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\biblatex.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\bibtex.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\c-based.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\cargo.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\clojure.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\cobol.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\cpreprocessor.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\css.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\cython.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\dbusintrospect.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\desktopentry.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\diff.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\dosbatch.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\dtd.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\dts.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\eiffel.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\erlang.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\falcon.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\flex.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\fortran.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\frontmatter.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\fypp.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\gdscript.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\gemspec.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\glade.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\go.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\haskell.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\haxe.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\html.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\i18nrubygem.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\iniconf.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\itcl.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\jprop.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\jscript.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\json.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\julia.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\ldscript.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\lisp.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\lua.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\m4.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\make.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\markdown.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\matlab.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\maven2.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\myrddin.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\nsis.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\objc.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\ocaml.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\openapi.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\pascal.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\perl-function-parameters.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\perl-moose.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\perl.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\php.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\plist.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\powershell.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\protobuf.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\python.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\pythonloggingconfig.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\quarto.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\r-r6class.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\r-s4class.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\r.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\rake.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\raku.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\relaxng.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\rexx.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\rmarkdown.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\robot.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\rpmspec.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\rspec.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\rst.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\ruby.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\rust.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\scheme.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\sh.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\slang.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\sml.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\sql.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\svg.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\systemdunit.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\tcl.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\tcloo.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\tex-beamer.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\tex.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\ttcn.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\txt2tags.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\typescript.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\v.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\vera.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\verilog.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\vhdl.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\vim.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\windres.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\xml.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\xrc.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\xslt.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\yaml.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\yamlfrontmatter.c" />
+    <ClCompile Include="C:\code\github\ctags\parsers\yumrepo.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\code\github\ctags\build\x64\ZERO_CHECK.vcxproj">
+      <Project>{3C95AA8F-AFB1-38B9-A2C0-D9E31B98CFB1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

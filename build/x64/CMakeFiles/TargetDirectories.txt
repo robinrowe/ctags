@@ -1,0 +1,10 @@
+C:/code/github/ctags/build/x64/CMakeFiles/ALL_BUILD.dir
+C:/code/github/ctags/build/x64/CMakeFiles/ZERO_CHECK.dir
+C:/code/github/ctags/build/x64/dsl/CMakeFiles/dsl.dir
+C:/code/github/ctags/build/x64/extra-cmds/CMakeFiles/extra-cmds.dir
+C:/code/github/ctags/build/x64/gnulib/CMakeFiles/gnulib.dir
+C:/code/github/ctags/build/x64/gnulib/glthread/CMakeFiles/gnulib_glthread.dir
+C:/code/github/ctags/build/x64/gnulib/malloc/CMakeFiles/gnulib_malloc.dir
+C:/code/github/ctags/build/x64/libreadtags/CMakeFiles/libreadtags.dir
+C:/code/github/ctags/build/x64/libreadtags/tests/CMakeFiles/libreadtags_tests.dir
+C:/code/github/ctags/build/x64/main/CMakeFiles/main.dir

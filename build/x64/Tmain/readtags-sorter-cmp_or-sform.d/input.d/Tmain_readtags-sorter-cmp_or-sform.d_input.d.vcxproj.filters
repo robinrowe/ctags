@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\code\github\ctags\Tmain\readtags-sorter-cmp_or-sform.d\input.d\bar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\Tmain\readtags-sorter-cmp_or-sform.d\input.d\foo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\code\github\ctags\Tmain\readtags-sorter-cmp_or-sform.d\input.d\decl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\code\github\ctags\Tmain\readtags-sorter-cmp_or-sform.d\input.d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\code\github\ctags\Tmain\readtags-sorter-cmp_or-sform.d\input.d\sources.cmake" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E017B5AF-ABC2-30EB-8CCF-52FE77148AA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F200BEF2-5993-3EB1-B515-C6CC87F0E43E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

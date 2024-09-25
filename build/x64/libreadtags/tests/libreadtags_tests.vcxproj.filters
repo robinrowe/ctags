@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\duplicated-names.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-api-tagsClose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-api-tagsFind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-api-tagsFindPseudoTag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-api-tagsFirst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-api-tagsFirstPseudoTag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-api-tagsOpen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-api-tagsSetSortType.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-fix-large-tags.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-fix-null-deref.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-fix-unescaping-input-fields-backslash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-fix-unescaping-input-fields-exuberant.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-fix-unescaping-input-fields-no-filesep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-fix-unescaping-input-fields-no-mode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-fix-unescaping-input-fields.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\code\github\ctags\libreadtags\tests\test-fix-unescaping.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\code\github\ctags\libreadtags\tests\test-fields.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\code\github\ctags\libreadtags\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\code\github\ctags\libreadtags\tests\sources.cmake" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E017B5AF-ABC2-30EB-8CCF-52FE77148AA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F200BEF2-5993-3EB1-B515-C6CC87F0E43E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CECF6888-9719-32BE-B353-1C25A6482628}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>gnulib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\code\github\ctags\build\x64\gnulib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gnulib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gnulib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\code\github\ctags\build\x64\gnulib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gnulib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gnulib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\code\github\ctags\build\x64\gnulib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gnulib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gnulib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\code\github\ctags\build\x64\gnulib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gnulib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gnulib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4305;4018;26451;6031;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_ISOMAC;HAVE_CONFIG_H;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_ISOMAC;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libunistd.lib;Ws2_32.lib;Imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/code/github/libunistd/build/x64/Release;/code/github/libunistd/build/x64/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/code/github/ctags/build/x64/gnulib/Debug/gnulib.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/code/github/ctags/build/x64/gnulib/Debug/gnulib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4244;4305;4018;26451;6031;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;HAVE_CONFIG_H;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libunistd.lib;Ws2_32.lib;Imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/code/github/libunistd/build/x64/Release;/code/github/libunistd/build/x64/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/code/github/ctags/build/x64/gnulib/Release/gnulib.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/code/github/ctags/build/x64/gnulib/Release/gnulib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4244;4305;4018;26451;6031;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libunistd.lib;Ws2_32.lib;Imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/code/github/libunistd/build/x64/Release;/code/github/libunistd/build/x64/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/code/github/ctags/build/x64/gnulib/MinSizeRel/gnulib.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/code/github/ctags/build/x64/gnulib/MinSizeRel/gnulib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4305;4018;26451;6031;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_ISOMAC;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\code\github\libunistd\unistd;C:\code\github\ctags\.;C:\code\github\ctags\.\dsl;C:\code\github\ctags\.\main;C:\code\github\ctags\.\gnulib;C:\code\github\ctags\.\libreadtags;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libunistd.lib;Ws2_32.lib;Imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/code/github/libunistd/build/x64/Release;/code/github/libunistd/build/x64/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/code/github/ctags/build/x64/gnulib/RelWithDebInfo/gnulib.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/code/github/ctags/build/x64/gnulib/RelWithDebInfo/gnulib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\code\github\ctags\gnulib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/code/github/ctags/gnulib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/code/github/ctags -BC:/code/github/ctags/build/x64 --check-stamp-file C:/code/github/ctags/build/x64/gnulib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\code\github\ctags\build\x64\gnulib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/code/github/ctags/gnulib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/code/github/ctags -BC:/code/github/ctags/build/x64 --check-stamp-file C:/code/github/ctags/build/x64/gnulib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\code\github\ctags\build\x64\gnulib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/code/github/ctags/gnulib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/code/github/ctags -BC:/code/github/ctags/build/x64 --check-stamp-file C:/code/github/ctags/build/x64/gnulib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\code\github\ctags\build\x64\gnulib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/code/github/ctags/gnulib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/code/github/ctags -BC:/code/github/ctags/build/x64 --check-stamp-file C:/code/github/ctags/build/x64/gnulib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\code\github\ctags\build\x64\gnulib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\code\github\ctags\gnulib\sources.cmake">
+    </None>
+    <ClInclude Include="C:\code\github\ctags\gnulib\_Noreturn.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\alloca.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\arg-nonnull.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\attribute.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\c++defs.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\cdefs.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\ctype.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\dynarray.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\flexmember.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\fnmatch.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\hard-locale.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\idx.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\intprops.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\inttypes.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\langinfo.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\lc-charset-dispatch.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\libc-config.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\limits.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\localcharset.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\locale.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\mbrtowc-impl-utf8.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\mbrtowc-impl.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\mbsrtowcs-impl.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\mbtowc-impl.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\mbtowc-lock.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\regex.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\regex_internal.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\setlocale_null.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\stdbool.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\stddef.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\stdint.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\stdlib.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\streq.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\string.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\strnlen1.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\sys_types.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\unistd.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\verify.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\warn-on-use.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\wchar.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\wctype.in.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\windows-initguard.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\windows-mutex.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\windows-once.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\windows-recmutex.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\windows-rwlock.h" />
+    <ClInclude Include="C:\code\github\ctags\gnulib\wmemchr-impl.h" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\btowc.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\fnmatch.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\fnmatch_loop.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\hard-locale.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\isblank.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\lc-charset-dispatch.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\localcharset.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\localeconv.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\mbrtowc.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\mbsinit.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\mbsrtowcs-state.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\mbsrtowcs.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\mbtowc-lock.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\mbtowc.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\memchr.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\mempcpy.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\nl_langinfo-lock.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\nl_langinfo.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\regcomp.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\regex.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\regex_internal.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\regexec.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\setlocale-lock.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\setlocale_null.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\strnlen.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\strnlen1.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\unistd.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\wcrtomb.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\wctype-h.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\windows-mutex.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\windows-once.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\windows-recmutex.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\windows-rwlock.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\wmemchr.c" />
+    <ClCompile Include="C:\code\github\ctags\gnulib\wmempcpy.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\code\github\ctags\build\x64\ZERO_CHECK.vcxproj">
+      <Project>{3C95AA8F-AFB1-38B9-A2C0-D9E31B98CFB1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

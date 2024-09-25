@@ -1,0 +1,6 @@
+# Units_parser-perl.r_perl-pod-after-end-no-guest.d/CMakeLists.txt
+# Created by Robin Rowe 2024-09-24
+# License GPL2 open source
+
+set (MODULE_NAME Units_parser-perl.r_perl-pod-after-end-no-guest.d)
+message("Configuring ${MODULE_NAME} CMAKER_COUNT source file(s)")

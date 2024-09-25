@@ -1,0 +1,21 @@
+﻿  main.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\parser.h(57,7): error C2061: syntax error: identifier 'CParseXML'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\parser.h(57,7): error C2059: syntax error: ';'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\parser.h(57,17): error C2449: found '{' at file scope (missing function header?)
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\parser.h(90,1): error C2059: syntax error: '}'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\parser.h(98,1): error C2054: expected '(' to follow 'class'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\parser.h(98,28): error C2085: 'CFIFOString': not in formal parameter list
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\parser.h(98,40): error C2143: syntax error: missing ';' before '{'
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(30,5): error C2065: 'parser_context_t': undeclared identifier
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(30,23): error C2065: 'parser': undeclared identifier
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(30,30): warning C4047: '=': 'int' differs in levels of indirection from 'void *'
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(30,22): error C2106: '=': left operand must be l-value
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(34,9): error C2065: 'parser': undeclared identifier
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(34,18): warning C4013: 'parser_create' undefined; assuming extern returning int
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(36,23): warning C4013: 'parser_parse' undefined; assuming extern returning int
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(36,36): error C2065: 'parser': undeclared identifier
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(50,5): warning C4013: 'parser_destroy' undefined; assuming extern returning int
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\main.c(50,20): error C2065: 'parser': undeclared identifier
+  system.c
+  utility.c
+  Generating Code...

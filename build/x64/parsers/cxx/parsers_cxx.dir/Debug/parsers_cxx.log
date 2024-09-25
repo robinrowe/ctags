@@ -1,0 +1,132 @@
+﻿cxx.obj : error LNK2001: unresolved external symbol selectByObjectiveCKeywords
+cxx.obj : error LNK2019: unresolved external symbol parserNew referenced in function CParser
+cxx_qtmoc.obj : error LNK2001: unresolved external symbol parserNew
+cxx_keyword.obj : error LNK2019: unresolved external symbol addKeyword referenced in function cxxBuildKeywordHash
+cxx_parser_typedef.obj : error LNK2019: unresolved external symbol vStringResize referenced in function cxxParserExtractTypedef
+cxx_side_chain.obj : error LNK2001: unresolved external symbol vStringResize
+cxx_tag.obj : error LNK2001: unresolved external symbol vStringResize
+cxx_token_chain.obj : error LNK2001: unresolved external symbol vStringResize
+cxx_parser.obj : error LNK2001: unresolved external symbol vStringResize
+cxx_parser_function.obj : error LNK2001: unresolved external symbol vStringResize
+cxx_parser_lambda.obj : error LNK2001: unresolved external symbol vStringResize
+cxx_parser_tokenizer.obj : error LNK2001: unresolved external symbol vStringResize
+cxx_parser_variable.obj : error LNK2019: unresolved external symbol vStringDelete referenced in function cxxParserExtractVariableDeclarations
+cxx_scope.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_tag.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_token.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_parser_namespace.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_parser_tokenizer.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_parser_typedef.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_parser_using.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_parser.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_parser_function.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_parser_lambda.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_parser_module.obj : error LNK2001: unresolved external symbol vStringDelete
+cxx_parser.obj : error LNK2019: unresolved external symbol vStringCatS referenced in function cxxParserParseEnumStructClassOrUnionFullDeclarationTrailer
+cxx_tag.obj : error LNK2001: unresolved external symbol vStringCatS
+cxx_token.obj : error LNK2001: unresolved external symbol vStringCatS
+cxx_token_chain.obj : error LNK2001: unresolved external symbol vStringCatS
+cxx_parser.obj : error LNK2019: unresolved external symbol ptrArrayNew referenced in function cxxParserParseAccessSpecifier
+cxx_parser.obj : error LNK2019: unresolved external symbol ptrArrayClear referenced in function cxxParserParseAccessSpecifier
+cxx_parser.obj : error LNK2019: unresolved external symbol ptrArrayUnref referenced in function cxxParserParseAccessSpecifier
+cxx_parser.obj : error LNK2019: unresolved external symbol setTagEndLineToCorkEntry referenced in function cxxParserSetEndLineForTagInCorkQueue
+cxx_tag.obj : error LNK2001: unresolved external symbol markTagExtraBit
+cxx_parser.obj : error LNK2001: unresolved external symbol markTagExtraBit
+cxx_parser_function.obj : error LNK2001: unresolved external symbol markTagExtraBit
+cxx_parser_lambda.obj : error LNK2001: unresolved external symbol markTagExtraBit
+cxx_parser_namespace.obj : error LNK2001: unresolved external symbol markTagExtraBit
+cxx_parser.obj : error LNK2019: unresolved external symbol cppInit referenced in function cxxParserMain
+cxx_parser.obj : error LNK2019: unresolved external symbol cppTerminate referenced in function cxxParserMain
+cxx_parser.obj : error LNK2019: unresolved external symbol cppEndStatement referenced in function cxxParserNewStatementFull
+cxx_parser.obj : error LNK2019: unresolved external symbol getInputLineNumber referenced in function cxxParserMarkEndLineForTagInCorkQueue
+cxx_parser_block.obj : error LNK2001: unresolved external symbol getInputLineNumber
+cxx_parser_tokenizer.obj : error LNK2001: unresolved external symbol getInputLineNumber
+cxx_token.obj : error LNK2001: unresolved external symbol getInputLineNumber
+cxx_parser.obj : error LNK2019: unresolved external symbol getInputFilePosition referenced in function cxxParserParseEnumStructClassOrUnionFullDeclarationTrailer
+cxx_parser_tokenizer.obj : error LNK2001: unresolved external symbol getInputFilePosition
+cxx_token.obj : error LNK2001: unresolved external symbol getInputFilePosition
+cxx_parser_using.obj : error LNK2001: unresolved external symbol isInputHeaderFile
+cxx_parser_variable.obj : error LNK2001: unresolved external symbol isInputHeaderFile
+cxx_parser.obj : error LNK2001: unresolved external symbol isInputHeaderFile
+cxx_parser_function.obj : error LNK2001: unresolved external symbol isInputHeaderFile
+cxx_parser_namespace.obj : error LNK2001: unresolved external symbol isInputHeaderFile
+cxx_parser_typedef.obj : error LNK2001: unresolved external symbol isInputHeaderFile
+cxx_parser.obj : error LNK2019: unresolved external symbol trashBoxPut referenced in function cxxParserParseAccessSpecifier
+cxx_parser_block.obj : error LNK2019: unresolved external symbol cppBeginStatement referenced in function cxxParserParseBlockInternal
+cxx_parser_namespace.obj : error LNK2001: unresolved external symbol cppBeginStatement
+cxx_parser_tokenizer.obj : error LNK2001: unresolved external symbol cppBeginStatement
+cxx_parser_block.obj : error LNK2019: unresolved external symbol cppPushExternalParserBlock referenced in function cxxParserParseBlockFull
+cxx_parser_block.obj : error LNK2019: unresolved external symbol cppPopExternalParserBlock referenced in function cxxParserParseBlockFull
+cxx_parser_function.obj : error LNK2019: unresolved external symbol strrstr referenced in function cxxParserisConstructor
+cxx_parser_function.obj : error LNK2019: unresolved external symbol isXtagEnabled referenced in function cxxParserTokenChainLooksLikeFunctionParameterList
+cxx_tag.obj : error LNK2001: unresolved external symbol isXtagEnabled
+cxx_parser_function.obj : error LNK2019: unresolved external symbol parserTrashBoxPut referenced in function cxxParserTokenChainLooksLikeFunctionParameterList
+cxx_parser_using.obj : error LNK2001: unresolved external symbol parserTrashBoxPut
+cxx_tag.obj : error LNK2001: unresolved external symbol parserTrashBoxPut
+cxx_parser_function.obj : error LNK2019: unresolved external symbol parserTrashBoxTakeBack referenced in function cxxParserEmitFunctionParameterTags
+cxx_parser_module.obj : error LNK2019: unresolved external symbol vStringCat referenced in function cxxTokenModuleTokenCreate
+cxx_token.obj : error LNK2001: unresolved external symbol vStringCat
+cxx_parser_module.obj : error LNK2019: unresolved external symbol vStringCopy referenced in function cxxParserParseImport
+cxx_parser_typedef.obj : error LNK2001: unresolved external symbol vStringCopy
+cxx_parser_using.obj : error LNK2001: unresolved external symbol vStringCopy
+cxx_parser_module.obj : error LNK2019: unresolved external symbol assignRole referenced in function cxxParserParseImport
+cxx_parser_module.obj : error LNK2019: unresolved external symbol cppGetLastCharOrStringContents referenced in function cxxParserParseImport
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol eMalloc referenced in function cxxParserParseNextTokenApplyReplacement
+cxx_token.obj : error LNK2001: unresolved external symbol eMalloc
+cxx_token_chain.obj : error LNK2001: unresolved external symbol eMalloc
+cxx_token_chain.obj : error LNK2019: unresolved external symbol eFree referenced in function cxxTokenChainJoin
+cxx_parser_tokenizer.obj : error LNK2001: unresolved external symbol eFree
+cxx_qtmoc.obj : error LNK2001: unresolved external symbol eFree
+cxx_tag.obj : error LNK2001: unresolved external symbol eFree
+cxx_token.obj : error LNK2001: unresolved external symbol eFree
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol cppUngetc referenced in function cxxParserParseNextToken
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol cppUngetBufferSize referenced in function cxxParserParseNextToken
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol cppUngetString referenced in function cxxParserUngetCurrentToken
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol cppGetc referenced in function cxxParserParseNextToken
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol cppVStringPut referenced in function cxxParserParseNextToken
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol cppFindMacro referenced in function cxxParserParseNextToken
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol cppUngetStringBuiltByMacro referenced in function cxxParserParseNextTokenApplyReplacement
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol cppBuildMacroReplacement referenced in function cxxParserParseNextTokenApplyReplacement
+cxx_parser_tokenizer.obj : error LNK2019: unresolved external symbol lookupKeyword referenced in function cxxParserParseNextToken
+cxx_qtmoc.obj : error LNK2001: unresolved external symbol lookupKeyword
+cxx_qtmoc.obj : error LNK2019: unresolved external symbol vStringStrdup referenced in function qtMocParseProperty
+cxx_qtmoc.obj : error LNK2019: unresolved external symbol getNamedLanguage referenced in function qtMocMakeTagForProperty
+cxx_side_chain.obj : error LNK2001: unresolved external symbol getNamedLanguage
+cxx_qtmoc.obj : error LNK2019: unresolved external symbol makeTagEntry referenced in function qtMocMakeTagForProperty
+cxx_side_chain.obj : error LNK2001: unresolved external symbol makeTagEntry
+cxx_tag.obj : error LNK2001: unresolved external symbol makeTagEntry
+cxx_qtmoc.obj : error LNK2019: unresolved external symbol initTagEntry referenced in function qtMocMakeTagForProperty
+cxx_qtmoc.obj : error LNK2019: unresolved external symbol updateTagLine referenced in function qtMocMakeTagForProperty
+cxx_tag.obj : error LNK2001: unresolved external symbol updateTagLine
+cxx_qtmoc.obj : error LNK2019: unresolved external symbol scheduleRunningBaseparser referenced in function findQtMocTags
+cxx_qtmoc.obj : error LNK2019: unresolved external symbol getInputLanguage referenced in function qtMocParseProperty
+cxx_scope.obj : error LNK2019: unresolved external symbol vStringNewOrClear referenced in function cxxScopeGetFullName
+cxx_side_chain.obj : error LNK2019: unresolved external symbol vStringChop referenced in function cxxScanAttrExtractSection
+cxx_side_chain.obj : error LNK2019: unresolved external symbol getLanguageKindForName referenced in function cxxScanAttrExtractSection
+cxx_side_chain.obj : error LNK2019: unresolved external symbol getLanguageRoleForName referenced in function cxxScanAttrExtractSection
+cxx_side_chain.obj : error LNK2019: unresolved external symbol initForeignRefTagEntry referenced in function cxxScanAttrExtractSection
+cxx_subparser.obj : error LNK2019: unresolved external symbol getNextSubparser referenced in function cxxSubparserNotifyParseAccessSpecifier
+cxx_subparser.obj : error LNK2019: unresolved external symbol enterSubparser referenced in function cxxSubparserNotifyParseAccessSpecifier
+cxx_subparser.obj : error LNK2019: unresolved external symbol leaveSubparser referenced in function cxxSubparserNotifyParseAccessSpecifier
+cxx_subparser.obj : error LNK2019: unresolved external symbol ptrArrayAdd referenced in function cxxSubparserNotifyParseAccessSpecifier
+cxx_subparser.obj : error LNK2019: unresolved external symbol ptrArrayCount referenced in function cxxSubparserNotifyfoundExtraIdentifierAsAccessSpecifier
+cxx_subparser.obj : error LNK2019: unresolved external symbol ptrArrayItem referenced in function cxxSubparserNotifyfoundExtraIdentifierAsAccessSpecifier
+cxx_tag.obj : error LNK2019: unresolved external symbol eStrdup referenced in function cxxTagSetField
+cxx_tag.obj : error LNK2019: unresolved external symbol vStringNew referenced in function cxxTagSetProperties
+cxx_token.obj : error LNK2001: unresolved external symbol vStringNew
+cxx_token_chain.obj : error LNK2001: unresolved external symbol vStringNew
+cxx_tag.obj : error LNK2019: unresolved external symbol vStringNewInit referenced in function cxxTagCommit
+cxx_tag.obj : error LNK2019: unresolved external symbol isFieldEnabled referenced in function cxxRefTagBegin
+cxx_tag.obj : error LNK2019: unresolved external symbol initRefTagEntry referenced in function cxxRefTagBegin
+cxx_tag.obj : error LNK2019: unresolved external symbol getEntryInCorkQueue referenced in function cxxTagLookBackLastNth
+cxx_tag.obj : error LNK2019: unresolved external symbol countEntryInCorkQueue referenced in function cxxTagLookBackLastNth
+cxx_tag.obj : error LNK2019: unresolved external symbol registerEntry referenced in function cxxTagCommit
+cxx_tag.obj : error LNK2019: unresolved external symbol attachParserField referenced in function cxxTagSetField
+cxx_tag.obj : error LNK2019: unresolved external symbol attachParserFieldToCorkEntry referenced in function cxxTagSetCorkQueueField
+cxx_token.obj : error LNK2019: unresolved external symbol anonGenerateFull referenced in function cxxTokenCreateAnonymousIdentifier
+cxx_token.obj : error LNK2019: unresolved external symbol objPoolNew referenced in function cxxTokenAPIInit
+cxx_token.obj : error LNK2019: unresolved external symbol objPoolDelete referenced in function cxxTokenAPIDone
+cxx_token.obj : error LNK2019: unresolved external symbol objPoolGet referenced in function cxxTokenCreate
+cxx_token.obj : error LNK2019: unresolved external symbol objPoolPut referenced in function cxxTokenDestroy
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\code\github\ctags\build\x64\parsers\cxx\Debug\parsers_cxx.exe : fatal error LNK1120: 74 unresolved externals

@@ -1,0 +1,248 @@
+﻿  args.c
+  cmd.c
+  colprint.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  debug.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  dependency.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  entry.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+C:\code\github\ctags\main\entry.c(80,10): warning C4005: 'open': macro redefinition
+C:\code\github\ctags\main\entry.c(152,1): error C2059: syntax error: '{'
+C:\code\github\ctags\main\entry.c(152,1): error C2065: '__mptr': undeclared identifier
+C:\code\github\ctags\main\entry.c(152,1): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\code\github\ctags\main\entry.c(152,1): error C2143: syntax error: missing ';' before ')'
+C:\code\github\ctags\main\entry.c(152,1): error C2059: syntax error: 'if'
+C:\code\github\ctags\main\entry.c(152,1): error C2059: syntax error: 'return'
+C:\code\github\ctags\main\entry.c(152,1): error C2059: syntax error: '}'
+C:\code\github\ctags\main\entry.c(152,1): error C2059: syntax error: ')'
+C:\code\github\ctags\main\entry.c(152,1): error C2143: syntax error: missing '{' before '->'
+C:\code\github\ctags\main\entry.c(152,1): error C2059: syntax error: '->'
+C:\code\github\ctags\main\entry.c(152,1): error C2065: 'intervaltab_augment_propagate': undeclared identifier
+C:\code\github\ctags\main\entry.c(152,1): error C2065: 'intervaltab_augment_rotate': undeclared identifier
+C:\code\github\ctags\main\entry.c(152,1): error C2099: initializer is not a constant
+C:\code\github\ctags\main\entry.c(152,1): error C2143: syntax error: missing ')' before '&'
+C:\code\github\ctags\main\entry.c(152,1): error C2143: syntax error: missing '{' before '&'
+C:\code\github\ctags\main\entry.c(152,1): error C2059: syntax error: '&'
+C:\code\github\ctags\main\entry.c(152,1): error C2065: 'left': undeclared identifier
+C:\code\github\ctags\main\entry.c(152,1): error C2223: left of '->__intervalnode_subtree_last' must point to struct/union
+C:\code\github\ctags\main\entry.c(152,1): warning C4047: '=': 'tagEntryInfoX *' differs in levels of indirection from 'int'
+C:\code\github\ctags\main\entry.c(152,1): error C2044: illegal continue
+C:\code\github\ctags\main\entry.c(152,1): error C2065: 'right': undeclared identifier
+C:\code\github\ctags\main\entry.c(152,1): warning C4047: 'function': 'tagEntryInfoX *' differs in levels of indirection from 'int'
+C:\code\github\ctags\main\entry.c(152,1): warning C4024: 'intervaltab_subtree_search': different types for formal and actual parameter 1
+C:\code\github\ctags\main\entry.c(152,1): error C2059: syntax error: 'while'
+C:\code\github\ctags\main\entry.c(152,1): error C2059: syntax error: 'else'
+C:\code\github\ctags\main\entry.c(1264,25): error C2059: syntax error: '{'
+C:\code\github\ctags\main\entry.c(1264,25): error C2065: '__mptr': undeclared identifier
+C:\code\github\ctags\main\entry.c(1264,25): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\code\github\ctags\main\entry.c(1264,25): error C2143: syntax error: missing ';' before ')'
+C:\code\github\ctags\main\entry.c(1265,40): error C2065: 'this': undeclared identifier
+C:\code\github\ctags\main\entry.c(1265,46): error C2223: left of '->slot' must point to struct/union
+C:\code\github\ctags\main\entry.c(1265,16): error C2198: 'strcmp': too few arguments for call
+C:\code\github\ctags\main\entry.c(1275,26): error C2065: 'this': undeclared identifier
+C:\code\github\ctags\main\entry.c(1275,32): error C2223: left of '->slot' must point to struct/union
+C:\code\github\ctags\main\entry.c(1286,16): error C2065: 'this': undeclared identifier
+C:\code\github\ctags\main\entry.c(1286,14): warning C4047: '<': 'tagEntryInfoX *' differs in levels of indirection from 'int'
+C:\code\github\ctags\main\entry.c(1288,21): error C2065: 'this': undeclared identifier
+C:\code\github\ctags\main\entry.c(1288,19): warning C4047: '>': 'tagEntryInfoX *' differs in levels of indirection from 'int'
+C:\code\github\ctags\main\entry.c(1299,11): error C2143: syntax error: missing ')' before 'string'
+C:\code\github\ctags\main\entry.c(1299,11): error C2143: syntax error: missing '{' before 'string'
+C:\code\github\ctags\main\entry.c(1299,11): error C2059: syntax error: 'string'
+C:\code\github\ctags\main\entry.c(1300,10): error C2059: syntax error: ')'
+C:\code\github\ctags\main\entry.c(1300,52): error C2059: syntax error: '->'
+C:\code\github\ctags\main\entry.c(1301,56): error C2059: syntax error: ')'
+C:\code\github\ctags\main\entry.c(1303,15): error C2143: syntax error: missing ')' before '&'
+C:\code\github\ctags\main\entry.c(1303,15): error C2143: syntax error: missing '{' before '&'
+C:\code\github\ctags\main\entry.c(1303,15): error C2059: syntax error: '&'
+C:\code\github\ctags\main\entry.c(1303,42): error C2059: syntax error: ')'
+C:\code\github\ctags\main\entry.c(1304,18): error C2143: syntax error: missing ')' before '&'
+C:\code\github\ctags\main\entry.c(1304,18): error C2143: syntax error: missing '{' before '&'
+C:\code\github\ctags\main\entry.c(1304,18): error C2059: syntax error: '&'
+C:\code\github\ctags\main\entry.c(1304,38): error C2059: syntax error: ')'
+C:\code\github\ctags\main\entry.c(1305,1): error C2059: syntax error: '}'
+C:\code\github\ctags\main\entry.c(1335,27): error C2059: syntax error: '{'
+C:\code\github\ctags\main\entry.c(1335,27): error C2065: '__mptr': undeclared identifier
+C:\code\github\ctags\main\entry.c(1335,27): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\code\github\ctags\main\entry.c(1335,27): error C2143: syntax error: missing ';' before ')'
+C:\code\github\ctags\main\entry.c(1338,26): error C2065: 'entry': undeclared identifier
+C:\code\github\ctags\main\entry.c(1338,33): error C2223: left of '->slot' must point to struct/union
+C:\code\github\ctags\main\entry.c(1338,13): error C2198: 'strcmp': too few arguments for call
+C:\code\github\ctags\main\entry.c(1346,11): error C2065: 'entry': undeclared identifier
+C:\code\github\ctags\main\entry.c(1346,9): warning C4047: '=': 'tagEntryInfoX *' differs in levels of indirection from 'int'
+C:\code\github\ctags\main\entry.c(1347,5): error C2043: illegal break
+C:\code\github\ctags\main\entry.c(1358,2): error C2059: syntax error: 'if'
+C:\code\github\ctags\main\entry.c(1375,2): error C2059: syntax error: 'else'
+C:\code\github\ctags\main\entry.c(1381,2): error C2059: syntax error: 'if'
+C:\code\github\ctags\main\entry.c(1387,11): error C2143: syntax error: missing ')' before 'string'
+C:\code\github\ctags\main\entry.c(1387,11): error C2143: syntax error: missing '{' before 'string'
+C:\code\github\ctags\main\entry.c(1387,11): error C2059: syntax error: 'string'
+C:\code\github\ctags\main\entry.c(1387,41): error C2059: syntax error: ')'
+C:\code\github\ctags\main\entry.c(1387,83): error C2059: syntax error: '->'
+C:\code\github\ctags\main\entry.c(1387,89): error C2059: syntax error: ')'
+C:\code\github\ctags\main\entry.c(1389,18): error C2099: initializer is not a constant
+C:\code\github\ctags\main\entry.c(1391,2): error C2059: syntax error: 'do'
+C:\code\github\ctags\main\entry.c(1391,2): error C1003: error count exceeds 100; stopping compilation
+  entry_private.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  error.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  field.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+C:\code\github\ctags\main\field.c(1009,24): error C2039: '_access': is not a member of '<unnamed-tag>'
+C:\code\github\ctags\main\field.c(1009,9): error C2198: 'renderAsIs': too few arguments for call
+C:\code\github\ctags\main\field.c(1185,31): error C2039: '_access': is not a member of '<unnamed-tag>'
+C:\code\github\ctags\main\field.c(1185,2): warning C4033: 'isAccessFieldAvailable' must return a value
+C:\code\github\ctags\main\field.c(1804,53): error C2039: '_access': is not a member of '<unnamed-tag>'
+C:\code\github\ctags\main\field.c(1804,61): warning C4133: 'function': incompatible types - from 'const tagEntryInfo *' to 'const char *'
+C:\code\github\ctags\main\field.c(1804,66): warning C4133: 'function': incompatible types - from 'const fieldDefinition *' to 'const tagEntryInfo *'
+C:\code\github\ctags\main\field.c(1804,9): error C2198: 'getFieldValueForCOMMON': too few arguments for call
+C:\code\github\ctags\main\field.c(1809,54): error C2039: '_access': is not a member of '<unnamed-tag>'
+C:\code\github\ctags\main\field.c(1809,62): warning C4047: 'function': 'const char **' differs in levels of indirection from 'tagEntryInfo *'
+C:\code\github\ctags\main\field.c(1809,62): warning C4024: 'setFieldValueForCOMMON': different types for formal and actual parameter 1
+C:\code\github\ctags\main\field.c(1809,67): warning C4090: 'function': different 'const' qualifiers
+C:\code\github\ctags\main\field.c(1809,73): warning C4133: 'function': incompatible types - from 'const EsObject *' to 'const fieldDefinition *'
+C:\code\github\ctags\main\field.c(1809,9): error C2198: 'setFieldValueForCOMMON': too few arguments for call
+  flags.c
+  fmt.c
+  fname.c
+C:\code\github\ctags\main\fname.c(133,11): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\code\github\ctags\main\fname.c(177,11): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  htable.c
+C:\code\github\ctags\main\htable.c(536,12): warning C4013: 'strcasecmp' undefined; assuming extern returning int
+  keyword.c
+C:\code\github\ctags\main\keyword.c(172,24): warning C4013: 'strcasecmp' undefined; assuming extern returning int
+  kind.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  lregex-default.c
+  lregex-pcre2.c
+C:\code\github\ctags\main\lregex-pcre2.c(65,62): error C2065: 'PCRE2_DOTALL': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(65,76): error C2065: 'PCRE2_MULTILINE': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(80,2): warning C4013: 'pcre2_code_free' undefined; assuming extern returning int
+C:\code\github\ctags\main\lregex-pcre2.c(88,2): error C2065: 'PCRE2_SIZE': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(88,13): error C2146: syntax error: missing ';' before identifier 'erroroffset'
+C:\code\github\ctags\main\lregex-pcre2.c(88,13): error C2065: 'erroroffset': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(89,2): error C2065: 'pcre2_code': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(89,14): error C2065: 'regex_code': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(89,27): warning C4013: 'pcre2_compile' undefined; assuming extern returning int
+C:\code\github\ctags\main\lregex-pcre2.c(89,42): error C2065: 'PCRE2_SPTR': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(89,53): error C2146: syntax error: missing ')' before identifier 'regexp'
+C:\code\github\ctags\main\lregex-pcre2.c(89,13): error C2106: '=': left operand must be l-value
+C:\code\github\ctags\main\lregex-pcre2.c(95,6): error C2065: 'regex_code': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(95,17): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\code\github\ctags\main\lregex-pcre2.c(97,3): error C2065: 'PCRE2_UCHAR': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(97,15): error C2146: syntax error: missing ';' before identifier 'buffer'
+C:\code\github\ctags\main\lregex-pcre2.c(97,15): error C2065: 'buffer': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(97,21): error C2109: subscript requires array or pointer type
+C:\code\github\ctags\main\lregex-pcre2.c(98,3): warning C4013: 'pcre2_get_error_message' undefined; assuming extern returning int
+C:\code\github\ctags\main\lregex-pcre2.c(98,40): error C2065: 'buffer': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(98,55): error C2065: 'buffer': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(99,69): error C2065: 'erroroffset': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(100,7): error C2065: 'buffer': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(103,70): error C2065: 'regex_code': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(103,9): warning C4047: 'initializing': 'void *' differs in levels of indirection from 'int'
+C:\code\github\ctags\main\lregex-pcre2.c(110,26): error C2143: syntax error: missing ';' before '*'
+C:\code\github\ctags\main\lregex-pcre2.c(110,27): error C2065: 'match_data': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(110,26): error C2100: you cannot dereference an operand of type 'int'
+C:\code\github\ctags\main\lregex-pcre2.c(111,6): error C2065: 'match_data': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(111,17): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\code\github\ctags\main\lregex-pcre2.c(113,3): error C2065: 'match_data': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(113,16): warning C4013: 'pcre2_match_data_create' undefined; assuming extern returning int
+C:\code\github\ctags\main\lregex-pcre2.c(114,3): error C2065: 'match_data': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(114,3): warning C4022: 'trashBoxPut': pointer mismatch for actual parameter 2
+C:\code\github\ctags\main\lregex-pcre2.c(114,3): error C2065: 'pcre2_match_data_free': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(114,3): warning C4312: 'type cast': conversion from 'int' to 'TrashBoxDestroyItemProc' of greater size
+C:\code\github\ctags\main\lregex-pcre2.c(117,11): warning C4013: 'pcre2_match' undefined; assuming extern returning int
+C:\code\github\ctags\main\lregex-pcre2.c(117,31): error C2065: 'PCRE2_SPTR': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(117,42): error C2146: syntax error: missing ')' before identifier 'input'
+C:\code\github\ctags\main\lregex-pcre2.c(121,3): error C2065: 'PCRE2_SIZE': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(121,15): error C2065: 'ovector': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(121,25): warning C4013: 'pcre2_get_ovector_pointer' undefined; assuming extern returning int
+C:\code\github\ctags\main\lregex-pcre2.c(121,51): error C2065: 'match_data': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(121,14): error C2106: '=': left operand must be l-value
+C:\code\github\ctags\main\lregex-pcre2.c(122,7): error C2065: 'ovector': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(122,14): error C2109: subscript requires array or pointer type
+C:\code\github\ctags\main\lregex-pcre2.c(122,21): error C2065: 'ovector': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(122,28): error C2109: subscript requires array or pointer type
+C:\code\github\ctags\main\lregex-pcre2.c(127,34): error C2065: 'ovector': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(127,42): error C2109: subscript requires array or pointer type
+C:\code\github\ctags\main\lregex-pcre2.c(128,34): error C2065: 'ovector': undeclared identifier
+C:\code\github\ctags\main\lregex-pcre2.c(128,42): error C2109: subscript requires array or pointer type
+C:\code\github\ctags\main\lregex-pcre2.c(139,12): error C2065: 'PCRE2_CASELESS': undeclared identifier
+  lregex.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  lxpath.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  main.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  Generating Code...
+  Compiling...
+  mbcs.c
+  mini-geany.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+C:\code\github\ctags\main\mini-geany.c(229,28): error C2039: '_access': is not a member of '<unnamed-tag>'
+C:\code\github\ctags\main\mini-geany.c(230,47): error C2039: '_access': is not a member of '<unnamed-tag>'
+C:\code\github\ctags\main\mini-geany.c(230,17): error C2198: 'eStrdup': too few arguments for call
+  nestlevel.c
+C:\code\github\ctags\main\nestlevel.c(61,8): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\code\github\ctags\main\nestlevel.c(78,29): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\code\github\ctags\main\nestlevel.c(80,7): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\code\github\ctags\main\nestlevel.c(85,11): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\code\github\ctags\main\nestlevel.c(85,33): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\code\github\ctags\main\nestlevel.c(116,11): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\code\github\ctags\main\nestlevel.c(129,9): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  numarray.c
+  objpool.c
+  options.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  param.c
+  parse.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  portable-scandir.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  promise.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  ptag.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  ptrarray.c
+  rbtree.c
+  read.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  repoinfo.c
+  routines.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+C:\code\github\ctags\main\routines.c(164,12): warning C4273: '_stat64i32': inconsistent dll linkage
+C:\code\github\ctags\main\routines.c(167,10): warning C4005: 'lstat': macro redefinition
+  script.c
+  seccomp.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  selectors.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  sort.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  Generating Code...
+  Compiling...
+  stats.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  strlist.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  tokeninfo.c
+  trace.c
+  trashbox.c
+  unwindi.c
+  utf8_str.c
+  vstring.c
+  writer-ctags.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  writer-etags.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  writer-json.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  writer-xref.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  writer.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  xtag.c
+C:\code\github\libunistd\unistd\unistd.h(209,11): warning C5106: macro redefined with different parameter names
+  Generating Code...

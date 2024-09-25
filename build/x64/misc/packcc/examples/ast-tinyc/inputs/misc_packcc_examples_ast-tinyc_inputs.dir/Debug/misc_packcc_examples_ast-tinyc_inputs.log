@@ -1,0 +1,18 @@
+﻿  erroneous1.c
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\erroneous1.c(3,5): error C2059: syntax error: 'else'
+  example1.c
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example1.c(2,1): error C2449: found '{' at file scope (missing function header?)
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example1.c(2,29): error C2059: syntax error: '}'
+  example2.c
+  example3.c
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example2.c(2,1): error C2449: found '{' at file scope (missing function header?)
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example2.c(2,57): error C2059: syntax error: '}'
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example3.c(2,1): error C2449: found '{' at file scope (missing function header?)
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example3.c(2,33): error C2059: syntax error: '}'
+  example4.c
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example4.c(2,1): error C2449: found '{' at file scope (missing function header?)
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example4.c(2,30): error C2059: syntax error: '}'
+  example5.c
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example5.c(2,1): error C2449: found '{' at file scope (missing function header?)
+C:\code\github\ctags\misc\packcc\examples\ast-tinyc\inputs\example5.c(2,37): error C2059: syntax error: '}'
+  Generating Code...

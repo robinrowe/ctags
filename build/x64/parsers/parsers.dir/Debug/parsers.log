@@ -1,0 +1,192 @@
+﻿  abaqus.c
+  clojure.c
+  cobol.c
+  cython.c
+  dbusintrospect.c
+C:\code\github\ctags\parsers\cython.c(17,24): error C2143: syntax error: missing '{' before '*'
+C:\code\github\ctags\parsers\cython.c(20,2): error C2065: 'parserDefinition': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(20,20): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(20,26): warning C4013: 'parserNew' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\cython.c(20,19): error C2106: '=': left operand must be l-value
+C:\code\github\ctags\parsers\cython.c(21,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(21,7): error C2223: left of '->kindTable' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(21,19): error C2065: 'CythonKinds': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(22,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(22,7): error C2223: left of '->kindCount' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(22,19): warning C4013: 'ARRAY_SIZE' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\cython.c(22,31): error C2065: 'CythonKinds': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(23,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(23,7): error C2223: left of '->extensions' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(24,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(24,7): error C2223: left of '->parser' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(24,16): error C2065: 'findCythonTags': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(25,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(25,7): error C2223: left of '->initialize' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(25,20): error C2065: 'initialize': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(26,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(26,7): error C2223: left of '->finalize' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(26,18): error C2065: 'finalize': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(27,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(27,7): error C2223: left of '->keywordTable' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(27,22): error C2065: 'CythonKeywordTable': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(28,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(28,7): error C2223: left of '->keywordCount' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(28,34): error C2065: 'CythonKeywordTable': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(29,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(29,7): error C2223: left of '->fieldTable' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(29,20): error C2065: 'CythonFields': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(30,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(30,7): error C2223: left of '->fieldCount' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(30,32): error C2065: 'CythonFields': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(31,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(31,7): error C2223: left of '->useCork' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(31,17): error C2065: 'CORK_QUEUE': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(32,2): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(32,7): error C2223: left of '->requestAutomaticFQTag' must point to struct/union
+C:\code\github\ctags\parsers\cython.c(33,9): error C2065: 'def': undeclared identifier
+C:\code\github\ctags\parsers\cython.c(33,2): warning C4047: 'return': 'int *' differs in levels of indirection from 'int'
+  desktopentry.c
+C:\code\github\ctags\parsers\desktopentry.c(23,1): error C1083: Cannot open include file: 'iniconf.h': No such file or directory
+  diff.c
+  glade.c
+  go.c
+  maven2.c
+C:\code\github\ctags\parsers\maven2.c(76,15): error C2143: syntax error: missing ';' before '*'
+C:\code\github\ctags\parsers\maven2.c(76,17): error C2065: 'str': undeclared identifier
+C:\code\github\ctags\parsers\maven2.c(76,15): error C2100: you cannot dereference an operand of type 'int'
+C:\code\github\ctags\parsers\maven2.c(79,2): error C2065: 'str': undeclared identifier
+C:\code\github\ctags\parsers\maven2.c(79,14): error C2223: left of '->name' must point to struct/union
+C:\code\github\ctags\parsers\maven2.c(80,30): error C2065: 'str': undeclared identifier
+C:\code\github\ctags\parsers\maven2.c(80,22): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\code\github\ctags\parsers\maven2.c(82,29): warning C4013: 'xmlGetLineNo' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\maven2.c(172,20): error C2223: left of '->next' must point to struct/union
+C:\code\github\ctags\parsers\maven2.c(172,53): error C2223: left of '->next' must point to struct/union
+C:\code\github\ctags\parsers\maven2.c(174,29): error C2223: left of '->name' must point to struct/union
+C:\code\github\ctags\parsers\maven2.c(174,7): error C2198: 'strcmp': too few arguments for call
+C:\code\github\ctags\parsers\maven2.c(176,22): warning C4013: 'xmlNodeGetContent' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\maven2.c(176,14): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\code\github\ctags\parsers\maven2.c(201,3): warning C4013: 'xmlFree' undefined; assuming extern returning int
+  myrddin.c
+  nsis.c
+  plist.c
+  powershell.c
+C:\code\github\ctags\parsers\plist.c(76,19): error C2223: left of '->name' must point to struct/union
+C:\code\github\ctags\parsers\plist.c(77,34): error C2223: left of '->name' must point to struct/union
+C:\code\github\ctags\parsers\plist.c(77,11): error C2198: 'strcmp': too few arguments for call
+C:\code\github\ctags\parsers\plist.c(78,37): error C2223: left of '->name' must point to struct/union
+C:\code\github\ctags\parsers\plist.c(78,14): error C2198: 'strcmp': too few arguments for call
+C:\code\github\ctags\parsers\plist.c(76,2): warning C4033: 'isCompoundElement' must return a value
+C:\code\github\ctags\parsers\plist.c(85,9): warning C4013: 'xmlPreviousElementSibling' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\plist.c(85,7): warning C4047: '=': 'void *' differs in levels of indirection from 'int'
+C:\code\github\ctags\parsers\plist.c(88,29): error C2223: left of '->name' must point to struct/union
+C:\code\github\ctags\parsers\plist.c(88,7): error C2198: 'strcmp': too few arguments for call
+C:\code\github\ctags\parsers\plist.c(111,51): error C2223: left of '->parent' must point to struct/union
+C:\code\github\ctags\parsers\plist.c(116,27): warning C4013: 'xmlNodeGetContent' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\plist.c(116,19): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\code\github\ctags\parsers\plist.c(121,5): warning C4013: 'xmlFree' undefined; assuming extern returning int
+  raku.c
+  relaxng.c
+  rpmspec.c
+C:\code\github\ctags\gnulib\regex.h(650,27): error C2143: syntax error: missing ']' before 'restrict'
+C:\code\github\ctags\gnulib\regex.h(650,27): error C2143: syntax error: missing ')' before 'restrict'
+C:\code\github\ctags\gnulib\regex.h(650,27): error C2143: syntax error: missing '{' before 'restrict'
+C:\code\github\ctags\gnulib\regex.h(650,27): error C2219: syntax error: type qualifier must be after '*'
+C:\code\github\ctags\gnulib\regex.h(650,41): error C2059: syntax error: ']'
+C:\code\github\ctags\gnulib\regex.h(651,19): error C2059: syntax error: ')'
+  rspec.c
+  svg.c
+C:\code\github\ctags\parsers\svg.c(42,12): error C2223: left of '->type' must point to struct/union
+C:\code\github\ctags\parsers\svg.c(42,20): error C2065: 'XML_ATTRIBUTE_NODE': undeclared identifier
+C:\code\github\ctags\parsers\svg.c(43,29): error C2223: left of '->name' must point to struct/union
+C:\code\github\ctags\parsers\svg.c(43,7): error C2198: 'strcmp': too few arguments for call
+C:\code\github\ctags\parsers\svg.c(44,12): error C2223: left of '->parent' must point to struct/union
+C:\code\github\ctags\parsers\svg.c(44,28): error C2223: left of '->parent' must point to struct/union
+C:\code\github\ctags\parsers\svg.c(45,12): error C2223: left of '->parent' must point to struct/union
+C:\code\github\ctags\parsers\svg.c(45,36): error C2065: 'XML_ELEMENT_NODE': undeclared identifier
+C:\code\github\ctags\parsers\svg.c(46,29): error C2223: left of '->parent' must point to struct/union
+C:\code\github\ctags\parsers\svg.c(46,7): error C2198: 'strcmp': too few arguments for call
+  systemdunit.c
+  Generating Code...
+  Compiling...
+  tex.c
+  xml.c
+C:\code\github\ctags\parsers\xml.c(129,71): error C2146: syntax error: missing ')' before identifier 'ns'
+C:\code\github\ctags\parsers\xml.c(129,62): error C2081: 'xmlNsPtr': name in formal parameter list illegal
+C:\code\github\ctags\parsers\xml.c(129,71): error C2061: syntax error: identifier 'ns'
+C:\code\github\ctags\parsers\xml.c(129,71): error C2059: syntax error: ';'
+C:\code\github\ctags\parsers\xml.c(129,73): error C2059: syntax error: ')'
+C:\code\github\ctags\parsers\xml.c(130,1): error C2449: found '{' at file scope (missing function header?)
+C:\code\github\ctags\parsers\xml.c(158,1): error C2059: syntax error: '}'
+  xrc.c
+  yaml.c
+C:\code\github\ctags\parsers\yaml.c(61,37): error C2143: syntax error: missing ')' before '*'
+C:\code\github\ctags\parsers\yaml.c(61,37): error C2143: syntax error: missing '{' before '*'
+C:\code\github\ctags\parsers\yaml.c(61,42): error C2059: syntax error: ')'
+C:\code\github\ctags\parsers\yaml.c(61,38): error C2054: expected '(' to follow 'yaml'
+C:\code\github\ctags\parsers\yaml.c(74,37): error C2143: syntax error: missing ')' before '*'
+C:\code\github\ctags\parsers\yaml.c(74,37): error C2143: syntax error: missing '{' before '*'
+C:\code\github\ctags\parsers\yaml.c(74,42): error C2059: syntax error: ')'
+C:\code\github\ctags\parsers\yaml.c(74,38): error C2054: expected '(' to follow 'yaml'
+C:\code\github\ctags\parsers\yaml.c(81,27): error C2223: left of '->start_mark' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(110,13): error C2223: left of '->type' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(110,21): error C2065: 'YAML_ANCHOR_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(112,38): error C2223: left of '->data' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(112,3): error C2198: 'initTagEntry': too few arguments for call
+C:\code\github\ctags\parsers\yaml.c(117,18): error C2223: left of '->type' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(117,26): error C2065: 'YAML_ALIAS_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(119,41): error C2223: left of '->data' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(119,3): error C2198: 'initRefTagEntry': too few arguments for call
+C:\code\github\ctags\parsers\yaml.c(143,17): error C2223: left of '->type' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(145,7): error C2065: 'YAML_KEY_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(148,7): error C2065: 'YAML_SCALAR_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(168,7): error C2065: 'YAML_VALUE_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(180,13): error C2223: left of '->type' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(180,21): error C2065: 'YAML_BLOCK_SEQUENCE_START_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(181,13): error C2223: left of '->type' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(181,21): error C2065: 'YAML_BLOCK_MAPPING_START_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(186,13): error C2223: left of '->type' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(186,21): error C2065: 'YAML_BLOCK_END_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(188,18): error C2223: left of '->type' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(188,26): error C2065: 'YAML_STREAM_END_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(219,2): error C2065: 'yaml_parser_t': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(219,16): error C2146: syntax error: missing ';' before identifier 'yaml'
+C:\code\github\ctags\parsers\yaml.c(220,15): error C2182: 'token': this use of 'void' is not valid
+C:\code\github\ctags\parsers\yaml.c(223,2): warning C4013: 'yamlInit' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\yaml.c(240,8): warning C4013: 'yaml_parser_scan' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\yaml.c(256,27): error C2224: left of '.type' must have struct/union type
+C:\code\github\ctags\parsers\yaml.c(256,35): error C2065: 'YAML_SCALAR_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(259,33): error C2224: left of '.data' must have struct/union type
+C:\code\github\ctags\parsers\yaml.c(264,13): error C2224: left of '.type' must have struct/union type
+C:\code\github\ctags\parsers\yaml.c(264,21): error C2065: 'YAML_STREAM_END_TOKEN': undeclared identifier
+C:\code\github\ctags\parsers\yaml.c(267,3): warning C4013: 'yaml_token_delete' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\yaml.c(277,2): warning C4013: 'yamlFini' undefined; assuming extern returning int
+C:\code\github\ctags\parsers\yaml.c(300,2): error C2061: syntax error: identifier 'yaml_token_type_t'
+C:\code\github\ctags\parsers\yaml.c(303,1): error C2059: syntax error: '}'
+C:\code\github\ctags\parsers\yaml.c(365,6): error C2027: use of undefined type 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(367,2): error C2037: left of 'next' specifies undefined struct/union 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(370,2): error C2037: left of 'type' specifies undefined struct/union 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(370,19): error C2223: left of '->type' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(371,2): error C2037: left of 'key' specifies undefined struct/union 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(385,25): error C2037: left of 'next' specifies undefined struct/union 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(387,2): error C2037: left of 'next' specifies undefined struct/union 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(405,7): error C2037: left of 'next' specifies undefined struct/union 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(416,40): error C2223: left of '->data' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(416,59): warning C4047: 'function': 'const char *const ' differs in levels of indirection from 'langType'
+C:\code\github\ctags\parsers\yaml.c(416,59): warning C4024: 'lookupKeyword': different types for formal and actual parameter 1
+C:\code\github\ctags\parsers\yaml.c(416,10): error C2198: 'lookupKeyword': too few arguments for call
+C:\code\github\ctags\parsers\yaml.c(417,6): error C2037: left of 'key' specifies undefined struct/union 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(437,38): error C2037: left of 'key' specifies undefined struct/union 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(438,32): error C2037: left of 'next' specifies undefined struct/union 'ypathTypeStack'
+C:\code\github\ctags\parsers\yaml.c(438,45): warning C4133: 'function': incompatible types - from 'intArray *' to 'ypathTypeStack *'
+C:\code\github\ctags\parsers\yaml.c(438,58): warning C4047: 'function': 'intArray *' differs in levels of indirection from 'size_t'
+C:\code\github\ctags\parsers\yaml.c(438,58): warning C4024: 'ypathStateStackMatch': different types for formal and actual parameter 2
+C:\code\github\ctags\parsers\yaml.c(438,10): error C2198: 'ypathStateStackMatch': too few arguments for call
+C:\code\github\ctags\parsers\yaml.c(459,64): error C2223: left of '->data' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(459,21): error C2198: 'function through pointer': too few arguments for call
+C:\code\github\ctags\parsers\yaml.c(462,40): error C2223: left of '->data' must point to struct/union
+C:\code\github\ctags\parsers\yaml.c(462,68): warning C4047: 'function': 'const char *const ' differs in levels of indirection from 'int'
+C:\code\github\ctags\parsers\yaml.c(462,68): warning C4024: 'initTagEntry': different types for formal and actual parameter 2
+C:\code\github\ctags\parsers\yaml.c(462,5): error C2198: 'initTagEntry': too few arguments for call
+  yamlfrontmatter.c
+  yumrepo.c
+  Generating Code...
